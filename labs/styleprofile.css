@@ -1,0 +1,42 @@
+.all {
+    inline-size: 1;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+/* margin:auto --> căn giữa */
+    z-index: 1;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.205) ;
+    width: 400px;
+    height: 480px;
+    
+   
+}
+body{
+    background-image: url(https://media2.gody.vn/public/mytravelmap/images/2019/6/11/hanguyen121371/70144eee1b9169b6886ba8681423259c8c45a173.jpg);
+/* background-image: nền cho toàn trang */
+}
+.ten {
+    font-family:monospace;
+    /* font-familiy: định dạng font chữ */
+}
+.VN {
+    width: 24px;
+    height: 24px;
+}
+.avt {
+    border-radius: 50%;
+/* border-radius: bo tròn ảnh */
+    width: 200PX;
+    height: 200PX;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.click:hover
+{
+    border: 1px groove white ;
+    color: blueviolet;
+}
