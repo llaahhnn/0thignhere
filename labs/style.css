@@ -17,6 +17,7 @@ h2
 
 /* định dạng cho tất cả trong body */
 /* thứ tự ưu tiên css: 1/ viết trực tiếp trong thẻ; 2/ trong head; 3/nhúng file ; 4/ dùng !important - mạnh nhất -->cách nào có important thì sẽ được ưu tiên */
+
 body
 {
     color: mediumpurple;
