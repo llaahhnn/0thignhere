@@ -7,6 +7,8 @@
     z-index: 1;
     border-radius: 20px;
     background-color: rgba(128, 128, 128, 0.205) ;
+/* rgba(,,,alpha) với alpha là một số nằm trong khoảng từ 0,0 (hoàn toàn trong suốt) đến 1,0 (hoàn toàn mờ). -->chỉnh độ đậm nhạt của nền mà ko ảnh hưởng đến phần tử trong nền */
+/* opacity: độ đậm nhạt của nền kéo theo cả phần tử trong nền --> [0.0-1.0] */
     width: 400px;
     height: 480px;
     
@@ -14,7 +16,13 @@
 }
 body{
     background-image: url(https://media2.gody.vn/public/mytravelmap/images/2019/6/11/hanguyen121371/70144eee1b9169b6886ba8681423259c8c45a173.jpg);
-/* background-image: nền cho toàn trang */
+    background-attachment: scroll;
+    /* background-image: nền cho toàn trang */
+/* background-image: url() */
+/* vị trí nền: background-position */
+/* lặp lại nền: background-repeat | x: chiều ngang; y: chiều dọc; no-repeat  */
+/* đính kèm nền CSS (xem hình nền sẽ cuộn hay được cố định (sẽ không cuộn với phần còn lại của trang)
+    --> background-attachment | fixed: hình ko bị mất; scroll: kéo xuống mất hình nền */
 }
 .ten {
     font-family:monospace;
@@ -37,6 +45,8 @@ body{
 }
 .click:hover
 {
-    border: 1px groove white ;
+    border: 1px double white ;
+    width: 20%;
+    border-radius: 10%;
     color: blueviolet;
 }
